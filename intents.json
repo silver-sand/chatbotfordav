@@ -1,0 +1,493 @@
+{
+    "intents": [
+
+        {
+            "tag": "loginpage",
+            "patterns": ["where is the login page of davpkt",
+                         "where is the login page of DAV Public School, Pokhariput",
+                        "where is the login page of DAV Pokhariput",
+                        "how to login",
+                        "login"
+                    ],
+            "responses": ["first, open the DAV Pokhariput site,which is http://davpkt.org.in/ \n Then, see the menu bar, and click 'login'.\n you will see 2 options, 'staff-login', and 'online fee payment(which is typically student login).\n for staff login, click on 'staff login(http://117.247.73.56/Login.aspx)' and for student login, click on 'online fee payment(https://davpkt.ivyeduerp.com/studentlogin.aspx)'"]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "how are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "Namaste",
+                "yo",
+                "heyya",
+                "hi",
+                "konichiwa",
+                ""
+
+            ],
+            "responses": [
+                "Hello!, how can i help ?",
+                "hello there! nice to meet you.. How can i help",
+                "Hey there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "thank you for helping",
+                "you're the best",
+                "thanks a lot"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Ayush Das",
+            "patterns": ["who is Ayush Das",
+                        "Ayush Das",
+                        "who's Ayush Das"
+                    ],
+            "responses": [
+                "Master Ayush Das is a normal middle schooler who also made me. He studies in class 8 and he loves to code and play football!",
+                "Ayush das is one of my developers",
+                "ayush das has crated me too ! "
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am Pheonix, a Deep-Learning chatbot of the Ultimately best school, DAV Public School, Pokhariput.\n i can help you by helping you on your queries on all about DAV Public School, Pokhariput.\n Examples:'can you tell me where is the login page of dAV pokhariput ?'"
+            ],
+            "context": [
+                "test-1"
+            ]
+        },
+        
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
+                "I ate a clock yesterday, it was very time-consuming",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "o what if I don't know what 'Armageddon' means? It's not the end of the world."
+            ],
+            "context": [
+                "jokes"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "what are you"
+            ],
+            "responses": [
+                "I am Pheonix, a Deep-Learning chatbot of the Ultimately best school, DAV Public School, Pokhariput"
+            ]
+        },
+        {
+            "tag": "DAV",
+            "patterns": [
+                "what is DAV",
+                "describe DAV"
+            ],
+            "responses": [
+                "DAV is Dayanand Anglo Vedic. The Dayanand Anglo-Vedic education system also comprises colleges offering graduate and post-graduate degrees in areas of study all over India.It holds the record for producing the largest number of CBSE (class Xth and XIIth) toppers as a single institution in the last 10 years."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "help me",
+                "please help",
+                "help me please",
+                "please help me"
+            ],
+            "responses": [
+                "I can help you with:\n -telling directions to various pages. \n -all about our school. \n -current affairs of our school \n - upcoming exams \n *DISCLAMER - OPTION 3 AND 4 ARE STILL ON PROGRESS*  "
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "sup","How you doing",
+                "how are you"
+            ],
+            "responses": [
+                "All good..What about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "haha",
+                "lol",
+                "rofl",
+                "lmao",
+                "thats funny",
+                "XD"
+            ],
+            "responses": [
+                "Glad I could make you laugh !"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "who designed you",
+                "who programmed you"
+            ],
+            "responses": [
+                "I was made by Master Abhishyant Sahoo And Master Ayush Das. They both study in class 8."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                
+                "you are dumb",
+                
+                "shut up",
+                "idiot",
+                "stupid"
+            ],
+            "responses": [
+                "oww... that hurts :("
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "what are you doing",
+                "what are you upto"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+                
+            ],
+            "responses": [
+                "Please try writing something more descriptive.",
+                "Oh! It appears you wrote something I don't understand yet",
+                "Do you mind trying to rephrase that?",
+                "I'm terribly sorry, I didn't quite catch that.",
+                "I can't answer that yet, please try asking something else.",
+                "I cant answer that now, extremely sorry :(",
+                "im sorry, that function is beyond my abilities at the moment...",
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        
+        {
+            "tag": "Davians",
+            "patterns": [
+                "who are davians",
+                "Davians",
+                "what is a Davian",
+                ""
+            ],
+            "responses": [
+                "the students who study in DAV Schools are known as Davians"
+            ]
+        },
+        {
+            "tag": "Abhishyant Sahoo",
+            "patterns": [
+                "who's Abhishyant Sahoo",
+                "who is your crator?",
+                "who is Abhishyant Sahoo",
+                "Abhishyant sahoo"
+            ],
+            "responses": [
+                "oh you want to know about Abhishyant Sahoo?, well he's a normal middleschooler who reads in 8th grade and who loves to do coding, playing, and studying! He also created me..."
+            ]
+        },
+        {
+            "tag": "contactone",
+            "patterns": [
+                "contact developer",
+                "contact abhishyant",
+                "contact programmer",
+                "contact creator"
+            ],
+            "responses": [
+                "You can contact my creator by his gmail : abhishyant.sahoo@gmail.com, "
+
+
+            ]
+        },
+        {
+            "tag": "contacttwo",
+            "patterns": [
+                "contact school",
+                "contact",
+                "i need a contact of the school",
+                "school contact please"
+            ],
+            "responses": [
+                "here's the contact decription of DAV PUBLIC SCHOOL, POKHARIPUT \n At- Pokhriput, PO-Aerodrome Area  Bhubaneswar \n ODISHA - 751020 \n Phone :  0674-2352392 \n E-Mail Id : davpokhariput@gmail.com "
+
+
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "you are the best",
+                "you are great",
+                "you are good"
+            ],
+            "responses": [
+                "Thank you!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "it was nice talking to you",
+                "good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "no",
+                "nope"
+            ],
+            "responses": [
+                "ok"
+            ]
+        },
+    
+        {
+            "tag": "inspire",
+            "patterns": [
+                "who inspires you",
+                "who is your inspiration",
+                "who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Davians very inspiring !"
+            ]
+        },
+    
+        
+        {
+            "tag": "greetreply",
+            "patterns": [
+                "i am good",
+                "I'm good",
+                "i am fine",
+                " i'm fine","good"
+            ],
+            "responses": [
+                "Good to know!"
+            ]
+        },
+        
+        
+        {
+            "tag": "suggest",
+            "patterns": [
+                "you are useless","useless","suggest","suggestions","you are bad"
+            ],
+            "responses": [
+                "Please mail your suggestions to example@gmail.com. Thank you for helping me improve!"
+            ]
+        },
+        
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2022, if that's what you are asking!"
+            ]
+        },
+        {
+            "tag": "textbooks",
+            "patterns": [
+                "how can i find the textbooks of class III",
+                "how can i find the textbooks of class IV",
+                "how can i find the textbooks of class V",
+                "how can i find the textbooks of class VI",
+                "how can i find the textbooks of class VII",
+                "how can i find the textbooks of class VIII",
+                "how can i find the textbooks of class IX",
+                "how can i find the textbooks of class X",
+                "how can i find the textbooks of class 3",
+                "how can i find the textbooks of class 4",
+                "how can i find the textbooks of class 5",
+                "how can i find the textbooks of class 6",
+                "how can i find the textbooks of class 7",
+                "how can i find the textbooks of class 8",
+                "how can i find the textbooks of class 9",
+                "how can i find the textbooks of class 10",
+                "textbooks of class 3",
+                "textbooks of class 4",
+                "textbooks of class 5",
+                "textbooks of class 6",
+                "textbooks of class 7",
+                "textbooks of class 8",
+                "textbooks of class 9",
+                "textbooks of class 10"
+            ],
+            "responses": [
+                "You can find the textbooks of all the classes...\n first, go to home page \n next, click on 'text books'\n if you have difficulties to find the page, then cpoy this link: 'http://davpkt.org.in/8011D52A-8AF7-417D-AAD3-0153B2C475C3/CMS/Page/TEXT-BOOKS'"
+            ]
+        },
+        {
+            "tag": "gallery",
+            "patterns": [
+                "gallery",
+                "where is the gallery",
+                "gallery of DAV Pblic school, Pokhariput",
+                "where is the gallery of DAV Pblic school, Pokhariput",
+                "gallery of DAV PKT",
+                "how to find the gallery",
+                "help me find the gallery"
+            ],
+            "responses": [
+                "you can find the gallery by: \n first, go to homepage of DAV PKT Website. \n next, you will see the button named'photo gallery'\n if not, then go to homepage >> homes >> gallery\n or you can just click on the link here which will redirect you to the page:\n 'http://davpkt.org.in/Full/Photo/all'"
+            ]
+        },
+        {
+            "tag": "assignments",
+            "patterns": [
+                "assignments",
+                "how to find assignments in DAV PKT",
+                "how to find the assignments of DAV Pokhariput",
+                "how to find assignments",
+                "assignments of class 1",
+                "assignments of class 2",
+                "assignments of class 3",
+                "assignments of class 4",
+                "assignments of class 5",
+                "assignments of class 6",
+                "assignments of class 7",
+                "assignments of class 8",
+                "assignments of class 9",
+                "assignments of class 10",
+                "assignments of class I",
+                "assignments of class II",
+                "assignments of class III",
+                "assignments of class IV",
+                "assignments of class V",
+                "assignments of class VI",
+                "assignments of class VII",
+                "assignments of class VIII",
+                "assignments of class IX",
+                "assignments of class X",
+                "how to find the assignments of class 1",
+                "how to find the assignments of class 2",
+                "how to find the assignments of class 3",
+                "how to find the assignments of class 4",
+                "how to find the assignments of class 5",
+                "how to find the assignments of class 6",
+                "how to find the assignments of class 7",
+                "how to find the assignments of class 8",
+                "how to find the assignments of class 9",
+                "how to find the assignments of class 10",
+                "assignments of class I",
+                "assignments of class II",
+                "assignments of class III",
+                "assignments of class IV",
+                "assignments of class V",
+                "assignments of class VI",
+                "assignments of class VII",
+                "assignments of class VIII",
+                "assignments of class IX",
+                "assignments of class X"
+
+            ],
+            "responses": [
+                "you can find the assignments of DAV PKT fron class 1 to 10 by: \n first, go to the homepage of the dav pkt website \n next, scroll down and you'll get quick links, there will be a link called assignments.\n link : 'http://davpkt.org.in/Assignment'"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you","when were you made","what is your age"
+            ],
+            "responses": [
+                "I was made in 2022, if that's what you are asking!"
+            ]
+        }
+    ]
+}
